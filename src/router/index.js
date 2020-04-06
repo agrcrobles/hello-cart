@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Hello from "../Hello.vue";
+import Hello from "../components/HelloWorld.vue";
 import App from "../components/App.vue";
 
 Vue.use(VueRouter);
@@ -9,13 +9,13 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Hello
+    component: Hello,
   },
   {
     path: "/cart",
     name: "Shopping Cart",
-    component: App
-  }
+    component: App,
+  },
 
   // {
   //   path: "/cart",
@@ -29,7 +29,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
 });
 
 export default router;

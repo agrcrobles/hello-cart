@@ -1,6 +1,6 @@
 // import 'babel-polyfill'
 import Vue from "vue";
-import App from "./App.vue";
+import RouterApp from "./RouterApp.vue";
 import store from "./store";
 import { currency } from "./currency";
 import router from "./router";
@@ -19,6 +19,6 @@ new Vue({
   router,
   store,
   vuetify,
-  render: h => h(App)
+  render: (h) => h(RouterApp),
 });
 // }).$mount("#app");
