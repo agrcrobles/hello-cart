@@ -1,3 +1,13 @@
 module.exports = {
-  transpileDependencies: ["vuetify"]
+  transpileDependencies: ["vuetify"],
+  configureWebpack: {
+    module: {
+      rules: [
+        {
+          test: /.mdx?$/,
+          use: ["babel-loader", "@mdx-js/vue-loader"],
+        },
+      ],
+    },
+  },
 };

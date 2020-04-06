@@ -59,23 +59,55 @@ See `.eslintrc`
 
 ### VS Code
 
-Extensions
+Use Default Extensions for the vs code such as:
 
 Syntax Highlight for Vue.js
 eslint
 prettier
 
+This one maybe? https://github.com/silvenon/vscode-mdx
+
+looks like it works!
+
 ### Dev Tools
 
 https://github.com/vuejs/vue-devtools
 
+## Vuetify
+
+Getting source from cli
+
+### mdx
+
+https://github.com/mdx-js/mdx/blob/master/examples/vue/vue.config.js
+
 ### Router
 
-TODO: See https://router.vuejs.org/guide/#javascript
+See https://router.vuejs.org/guide/#javascript
 
-### Deploying netlify Pending
+## Deploy Your Own
 
-TODO: See https://cli.vuejs.org/guide/deployment.html#netlify
+Deploy your own Vue.js project with ZEIT Now.
+
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/zeit/now/tree/master/examples/vue)
+
+_Live Example: https://vue.now-examples.now.sh_
+
+### How We Created This Example
+
+To get started with Vue.js deployed with ZEIT Now, you can use the [Vue CLI](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) to initialize the project:
+
+```shell
+$ vue create
+```
+
+### Deploying From Your Terminal
+
+You can deploy your new Vue.js project with a single command from your terminal using [Now CLI](https://zeit.co/download):
+
+```shell
+$ now
+```
 
 ### Customize configuration
 
