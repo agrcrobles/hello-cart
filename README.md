@@ -30,6 +30,14 @@ yarn build
 
 See `babel.config.js`
 
+### Unit test
+
+```
+yarn test:unit
+```
+
+See `jest.config.js`
+
 ### Lints and fixes files
 
 ```
