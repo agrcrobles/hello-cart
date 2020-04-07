@@ -6,6 +6,8 @@ See original code
 
 https://github.com/vuejs/vuex/tree/dev/examples/shopping-cart
 
+![Node.js CI](https://github.com/agrcrobles/hello-cart/workflows/Node.js%20CI/badge.svg)
+
 ## Project setup
 
 vue-cli-service
